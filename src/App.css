@@ -1,0 +1,46 @@
+.overflow {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 42px;
+}
+.minheight {
+  min-height: calc(100vh - 9rem) !important;
+}
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 198);
+  font-size: 0.9rem;
+}
+.logo {
+  height: 4.5rem;
+  opacity: 0.5;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.hover:hover {
+  color: red;
+  cursor: pointer;
+}
+.hoverIcon:hover {
+  cursor: pointer;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.501) 0px 3px 8px;
+}
+.hoverIcon:active {
+  cursor: pointer;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.501) 0px 1px 3px;
+}
+.hoverselect:hover {
+  opacity: 0.8;
+  background-color: #144d87df !important;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  opacity: 1;
+  scale: 1.2;
+  cursor: pointer;
+}
